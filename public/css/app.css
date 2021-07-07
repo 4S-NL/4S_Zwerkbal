@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 2rem auto;
+}
+
+header{
+    background-color: #EEBA30;
+    color: #AE0001;
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: minmax(185px, 1fr) minmax(auto, 960px) minmax(165px, 1fr);
+    grid-gap: 2rem;
+}
+
+nav{
+    min-width: 50%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .title{
+    font-family: Metamorphous;
+    font-size: 2.25rem;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color: #AE0001;
+    text-decoration: none;
+}
+
+nav a.active{
+    color: #740001;
+    font-weight: bold;
+}
+
+.company{
+    color: #f14142;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.company span{
+    font-family: Monoton;
+    font-size: 2em;
+    margin-left: 6px;
+}
+
+
+.table{
+    width: 100%;
+}
+
+.table th{
+    background-color: #AE0001;
+}
+
+.table th, .table td{
+    padding: .5em 1em;
+}
+
+.table tr:nth-child(odd) td
+{
+    background-color: #EEBA30;
+}
+
+.table tr:hover td{
+    background-color: #D3A625;
+}
+
+label{
+    min-width: 160px;
+    display: inline-block;
+}
+
+.form-control{
+    min-width: 200px;
+}
