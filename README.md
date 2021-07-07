@@ -6,4 +6,3 @@ php artisan key:generate
 maak database in phpmyadmin (verder leeg laten)
 php artisan migrate:fresh
 php artisan serve
-
