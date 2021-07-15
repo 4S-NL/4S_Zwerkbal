@@ -19,7 +19,7 @@
         <header>
             <span class="title">Zwerkbal</span>
             @yield('nav')
-            <div class="company">een product van <span>4S</span></div>
+            <div class="company">een product van <img src="/img/4S-Logo-Transparent.png" alt="Logo 4S" class="logo"></div>
         </header>
         <main>
             <div class="wrapper">
