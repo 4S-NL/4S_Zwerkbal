@@ -4,8 +4,8 @@
     <nav>
         <a href="/">Home</a>
         <a href="/tournaments" class="active">Toernooien</a>
-        <a href="#">Teams</a>
-        <a href="#">Spelers</a>
+        <a href="/teams">Teams</a>
+        <a href="/players">Spelers</a>
     </nav>
 @endsection
 
