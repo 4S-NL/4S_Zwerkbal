@@ -20,9 +20,8 @@ class DatabaseSeeder extends Seeder
         //
         // NIETS AANPASSEN TUSSEN DEZE REGELS!
         // ~!@#$%^&**()_+
-
-        // NIETS AANPASSEN TUSSEN DEZE REGELS!
         // +_)(*&^%$#@!~
-        //
+        // NIETS AANPASSEN TUSSEN DEZE REGELS!
+        // 
     }
 }
