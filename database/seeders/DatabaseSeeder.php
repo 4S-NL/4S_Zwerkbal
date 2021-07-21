@@ -13,6 +13,16 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        // Je kunt hier je eigen seeders invoegen:
+
+
+
+        //
+        // NIETS AANPASSEN TUSSEN DEZE REGELS!
+        // ~!@#$%^&**()_+
+
+        // NIETS AANPASSEN TUSSEN DEZE REGELS!
+        // +_)(*&^%$#@!~
+        //
     }
 }
